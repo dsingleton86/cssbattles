@@ -1,0 +1,33 @@
+<div><div><div></div></div></div>
+<style>
+  body{
+    background: #6592CF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div {
+    width: 300px;
+    height: 150px;
+    background: #243D83;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  div > div{
+    background: #243D83;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 50px solid #6592CF;
+  }
+  
+  div > div > div{
+    background: #EEB850;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    bordeR:0;
+  }
+</style>
