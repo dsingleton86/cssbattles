@@ -1,0 +1,34 @@
+<div class="left"></div><div></div><div class="right"></div>
+<style>
+  body{
+    background: #62306D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    background: #F7EC7D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:50% 50% 0 0;
+    margin-top:-100px;
+  }
+  
+ .left{
+   	border-radius:0 0 50% 50%;
+    margin-top: 100px;
+  }
+  
+  .right {
+    background: red;
+    margin-top: 100;
+    border-radius:0 0 50% 50%;
+    background: #F7EC7D;
+  }
+  
+ 
+</style>
