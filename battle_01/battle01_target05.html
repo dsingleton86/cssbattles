@@ -1,0 +1,41 @@
+<div class="left"></div>
+<div class="center"></div>
+<div class="right"></div>
+<style>
+  body {
+    background: #0B2429;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  div {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+  }
+
+  .center {
+    background: #998235;
+    border-radius: 50% 0 50% 50%;
+  }
+
+  .left {
+    border-radius: 50% 0 50% 50%;
+    margin-top: 120px;
+    background: #F3AC3C;
+    margin-right: -60px;
+    z-index: 2;
+  }
+
+  .right {
+    background: red;
+    margin-top: -120;
+    border-radius: 50%;
+    background: #F3AC3C;
+    margin-left: -60px;
+    z-index: -1;
+  }
+</style>
